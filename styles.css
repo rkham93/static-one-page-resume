@@ -1,0 +1,255 @@
+:root{
+    --color1:#F1F3F8;
+    --color2:#D6E0F0;
+    --color3:#8D93AB;
+    --color4:#393B44;
+    --color5:#EB6440;
+    --font1:'Josefin Sans', sans-serif;
+    --font2:'Major Mono Display', monospace;
+    --font3:'Roboto', sans-serif;
+    --font4:'Oswald', sans-serif;
+}
+body{
+    background-color: var(--color3);
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.first{
+    font-family: var(--font1);
+    font-size: 3rem;
+    margin-bottom: 0;    
+}
+.last{
+    font-family: var(--font2);
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    
+}
+.hi{
+    font-family: var(--font3);
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: auto;  
+}
+.hiHr{
+    width: 20%;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-right: auto;
+    border-top: 8px solid;
+    border-color: var(--color5);
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px var(--color5);
+
+}
+.tagLine{
+    font-family: var(--font4);
+    font-size: 2rem;
+    margin-top:30px; 
+    margin-bottom: 10px;
+}
+div{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin:0px 10px 0px 10px;
+    border-radius: 10px;
+}
+a{
+    padding: 10px;
+    margin: 0px;
+    vertical-align: middle;
+}
+.linkedin{
+    padding-right: 0;
+}
+
+
+.bio{
+    background-color:var(--color1);
+    color: var(--color4);
+    height: 350px;
+
+}
+.contact{
+    background-color:var(--color4);
+    color: var(--color1);
+    font-family: var(--font3);
+}
+.section-title{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--font3);
+}
+section{
+    padding:10px 0px 10px 0px;
+    border-bottom: 4px solid var(--color5);
+    
+}
+.education{
+    background-color:var(--color1);
+    color: var(--color4);
+}
+.mds{
+    margin-left: 50px;
+    margin-right: 10px;
+    width: max-content;
+}
+.pgp{
+    margin-left: 30px;
+    margin-right: 10px;
+    width: max-content;
+}
+.btech{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.courseName{
+    font-family: var(--font4);
+    margin-bottom: 8px;
+}
+.schoolName{
+    font-family: var(--font3);
+}
+.graduation{
+    font-family: var(--font1);
+    margin-bottom: 8px;
+}
+.eduWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    width: max-content;
+
+}
+.technologies{
+    background-color:var(--color4);
+    color: var(--color1);
+}
+.work-experience{
+    background-color:var(--color1);
+    color: var(--color4);
+    font-size: large;
+}
+
+.tech{
+    text-align: center;
+  
+}
+.company{    
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+.companyName{
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-family: var(--font3);
+    font-size: large;
+    font-weight: bolder;
+}
+.designation{
+    display: inline-block;
+    margin: 5px 20px 5px 20px;
+    font-family: var(--font4);
+    font-size: large;
+    font-weight: bolder;
+}
+.orgTime{
+    display: inline-block;
+    margin: 5px 20px 5px 20px;
+    font-family: var(--font1);
+    font-weight: bolder;
+}
+.deptTitle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    text-align: left;
+    font-family: var(--font4);
+}
+.workDiv{
+    padding-bottom: 0px;
+}
+ul{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+li{
+    list-style-image: url(images/code-solid.svg);
+    text-align: left;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid;
+    border-color: var(--color5);
+}
+.techName{
+    margin: 0;
+    font-family: var(--font3);
+}
+.techTools{
+    margin-top: 5px;
+    font-family: var(--font1);
+}
+.framework{
+    margin-top: 5px;
+    font-family: var(--font3);
+}
+.frameworkTitle{
+    margin-bottom: 5px;
+    font-family: var(--font1);
+}
+img{
+    margin-right: 8px;
+    margin-top: 10px;
+
+}
+.fish.one{
+    margin-left: 0px;
+    margin-top: 0px;
+    z-index: 100;
+    animation-name: swimmingfish;
+    animation-duration: 10s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    height: 10px;
+    width: 10px;
+    
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.courseHr{
+    width: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+
+}
+@keyframes swimmingfish{
+    0% {left: -50%; opacity: 0;}
+    25% {left: -10%;opacity: 1;}
+    50% {left: 10%;opacity: 1;}
+    75% {left: 50%;opacity: 0;}
+    100% {left: 90%;opacity: 0;}
+}
